@@ -1,3 +1,5 @@
+### Liskov substitution Principle
+
 ### Dependency inversion Principle
 - Dependency inversion is not just dependency injection
 - High level modules should not depend on low level modules but both should depend on abstraction
@@ -6,3 +8,6 @@
 - Abstractions == interfaces, abstract classes.
 - Reduce changes to interfaces
 - it is the volatile concrete elements of our system that we want to avoid depending on.
+
+
+

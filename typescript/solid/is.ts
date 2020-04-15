@@ -13,6 +13,7 @@ export interface IphoneDevice {
   call(contact: number): void
   sendSms(msg: string): string
 }
+
 export class Iphone implements IsmartPhoneService, IphoneDevice {
   openApp (name: string): void {
     console.log(`Opened new app :${name}`)
@@ -27,6 +28,7 @@ export class Iphone implements IsmartPhoneService, IphoneDevice {
 }
 
 // Ipad can only only open an app so cannot implements IsmartPhoneService
+
 export class Ipad implements IsmartPhoneService {
   openApp (name: string): void {
     console.log(`Opened new app :${name}`)
